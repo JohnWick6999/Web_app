@@ -470,7 +470,7 @@ export default function XKCDViewer() {
         {loading ? (
           <div className="loading-container">
             {/* 使用本地加载占位图 */}
-            <div className="loading-placeholder">Loading...</div>
+            <div className="spinner"></div>
             <p>Loading comic...</p>
           </div>
         ) : currentComic ? (
